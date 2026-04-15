@@ -6,9 +6,9 @@
 
   </head>
   <body>
-    <a-scene>
+    <a-scene fog="type: exponential; density: 0.024; color: #d6edf8">
                 <a-assets>
-    <a-asset-item id="ISSP" src="assets/ISSP001.glb"></a-asset-item>
+    <a-asset-item id="ISSP" src="assets/ISSP002.glb"></a-asset-item>
     <a-asset-item id="grida" src="assets/ISSP-navmesh001.glb"></a-asset-item>
 
     <a-asset-item id="RMG" src="assets/RMG.glb"></a-asset-item>
@@ -17,7 +17,8 @@
 
         <a-gltf-model src="#ISSP"></a-gltf-model>
         <a-gltf-model src="#RMG" position="36.3 0 14"></a-gltf-model>
-        <a-gltf-model src="#RR" position="14.1 0.3 12.2" rotation="0 -90 0"></a-gltf-model>
+        <a-gltf-model src="#RR" position="23.38224 0.3 3.48725" rotation="0 180 0"></a-gltf-model>
+       
 
         <!--- <a-gltf-model id="navmesh" src="#grida" visible="false" position="0 0 0"></a-gltf-model> --->
         
@@ -26,7 +27,7 @@
 <a-entity
         id="rig"
         movement-controls="speed:0.2"
-        position="24.3 1.8 -4"
+        position="-20.8 1.6 1.8"
         rotation="0 0 0"
       >
         <a-entity
